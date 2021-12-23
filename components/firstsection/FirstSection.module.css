@@ -1,0 +1,12 @@
+.firstSectionContainer {
+	padding-top: 240px;
+	padding-bottom: 240px;
+	background-image: url("../../public/images/backgroundFirstSection-min.jpg");
+	background-size: cover;
+}
+.textAreaContainer{
+	background-color: rgba(255,255,255,0.7);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 40px;
+}

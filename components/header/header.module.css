@@ -1,0 +1,7 @@
+.logoSpacing{
+    padding-top: 10px!important;
+}
+.position{
+    position: fixed;
+    z-index: 1;
+}
