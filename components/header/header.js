@@ -1,5 +1,5 @@
 import styles from "./header.module.css"
-
+import Image from "next/image"
 import Link from "next/link"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +12,7 @@ function Header() {
             <label htmlFor="check" className="checkbtn">
                 <FontAwesomeIcon icon={faBars} color="#d81e1e" />
             </label>
-            <label className={"logo"}><img src="../../public/images/logoRedivivus.png" className={styles.logoSpacing} alt={"logo redivivus"} height={57} width={85} /></label>
+            <label className={"logo"}><Link href="/"><a><Image src={logo} className={styles.logoSpacing} alt={"logo redivivus"} height={57} width={85} /></a></Link></label>
             <ul>
                 <li><Link className="active" href="#home">Home</Link></li>
                 <li><Link href="#servicii">Servicii</Link></li>

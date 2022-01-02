@@ -7,7 +7,9 @@ function CtaButton(props) {
     return (
         <Fragment>
             <Link href={props.link} >
-                <p className={styles.buttonRedBg + " " + "span-white-thin"}><FontAwesomeIcon icon={props.icon} height="15"/> {props.content}</p>
+                <a>
+                    <p className={styles.buttonRedBg + " " + "span-white-thin"}><FontAwesomeIcon icon={props.icon} height="15" /> {props.content}</p>
+                </a>
             </Link>
         </Fragment>
     )

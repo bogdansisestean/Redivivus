@@ -7,7 +7,7 @@ import Footer from '../components/footer/footer'
 import ImageCarousel from '../components/galleryCarousel/GalleryCarousel'
 import Header from '../components/header/header'
 import Istoric from '../components/istoric/Istoric'
-import Partners from '../components/partners/partners'
+import Partners from '../components/partners/Partners'
 import ServicesComponent from '../components/services/servicesComponent/servicesComponent'
 import VideoPlayer from '../ui/videoPlayer/videoPlayer'
 

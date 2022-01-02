@@ -77,7 +77,7 @@ class ImageCarousel extends React.Component {
               .map((image, imageindex) => {
                 return (
                   <div className="width-auto" key={imageindex}>
-                    <img className="image" src={image} alt={"reparatii lovituri de grindina"}/>
+                    <Image className="image" src={image} alt={"reparatii lovituri de grindina"} width={335} height={225} />
                   </div>
                 );
               })}
