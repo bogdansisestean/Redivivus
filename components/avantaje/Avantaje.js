@@ -2,8 +2,9 @@ import { faPagelines } from '@fortawesome/free-brands-svg-icons'
 import { faClock, faTachometerAlt, faCheckDouble, faMoneyBillAlt, faScroll, faCheck, faTimesCircle, faThumbsUp } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import IconHeadingAdvantages from '../../ui/iconHeadingAdvantages/iconHeadingAdvantages'
+
 import UnderlineHeading from '../../ui/underlineHeading/underlineHeading'
+import IconHeadingAdvantages from '../../ui/iconHeadingAdvantages/iconHeadingAdvantages'
 
 import styles from "./Avantaje.module.css"
 
