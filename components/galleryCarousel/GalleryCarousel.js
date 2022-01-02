@@ -3,7 +3,7 @@ import styles from "./GalleryCarousel.module.css"
 import Image from "next/image"
 
 import galleryImage1 from "../../public/images/GalleryImages/galleryPictureOne.png"
-import galleryImage2 from "../../public/images/GalleryImages/galleryPicturetwo.png"
+import galleryImage2 from "../../public/images/GalleryImages/galleryPictureTwo.png"
 
 
 var images = [
