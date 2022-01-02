@@ -4,7 +4,7 @@ import React from 'react'
 import { Col, Row } from 'react-bootstrap'
 
 import UnderlineHeading from '../../ui/underlineHeading/underlineHeading'
-import IconHeadingAdvantages from '../../ui/iconHeadingAdvantages/iconHeadingAdvantages'
+import IHeadingAdv from '../../ui/iheadingadv/iheadingadv'
 
 import styles from "./Avantaje.module.css"
 
@@ -15,31 +15,31 @@ function Avantaje() {
                 <UnderlineHeading heading={"Avantaje"} />
                 <Row>
                     <Col xs={12} sm={12} md={12} lg={12} xl={6}>
-                        <IconHeadingAdvantages icon={faClock} heading={"TIMPUL REDUS AL REPARATIEI COMPARAT CU TINICHIGERIA CLASICA"} />
+                        <IHeadingAdv icon={faClock} heading={"TIMPUL REDUS AL REPARATIEI COMPARAT CU TINICHIGERIA CLASICA"} />
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={12} xl={6}>
-                        <IconHeadingAdvantages icon={faTachometerAlt} heading={"timp de reparatie foarte rapid ( 24-48 h )"} />
+                        <IHeadingAdv icon={faTachometerAlt} heading={"timp de reparatie foarte rapid ( 24-48 h )"} />
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={12} xl={6}>
-                        <IconHeadingAdvantages icon={faCheckDouble} heading={"pastrarea vopselei originale si a valorii autoturismului"} />
+                        <IHeadingAdv icon={faCheckDouble} heading={"pastrarea vopselei originale si a valorii autoturismului"} />
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={12} xl={6}>
-                        <IconHeadingAdvantages icon={faMoneyBillAlt} heading={"costuri reduse in comparatie cu tinichigeria clasica"} />
+                        <IHeadingAdv icon={faMoneyBillAlt} heading={"costuri reduse in comparatie cu tinichigeria clasica"} />
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={12} xl={6}>
-                        <IconHeadingAdvantages icon={faPagelines} heading={"reparatie ecologica 100% cu respectarea normelor de mediu UE"} />
+                        <IHeadingAdv icon={faPagelines} heading={"reparatie ecologica 100% cu respectarea normelor de mediu UE"} />
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={12} xl={6}>
-                        <IconHeadingAdvantages icon={faScroll} heading={"pastrarea garantiei acordate de producator"} />
+                        <IHeadingAdv icon={faScroll} heading={"pastrarea garantiei acordate de producator"} />
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={12} xl={6}>
-                        <IconHeadingAdvantages icon={faCheck} heading={"fara diferente de nuanta"} />
+                        <IHeadingAdv icon={faCheck} heading={"fara diferente de nuanta"} />
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={12} xl={6}>
-                        <IconHeadingAdvantages icon={faTimesCircle} heading={"nu se foloseste chit , nu exista slefuire , nu exista praf"} />
+                        <IHeadingAdv icon={faTimesCircle} heading={"nu se foloseste chit , nu exista slefuire , nu exista praf"} />
                     </Col>
                     <Col xs={12} sm={12} md={12} lg={12} xl={6}>
-                        <IconHeadingAdvantages icon={faThumbsUp} heading={"garantie extinsa pana la trei ani"} />
+                        <IHeadingAdv icon={faThumbsUp} heading={"garantie extinsa pana la trei ani"} />
                     </Col>
                 </Row>
             </div>
